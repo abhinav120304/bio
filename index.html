@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">ABHINAV</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>HI, it's me</h3>
+            <h1>ABHINAV REDDY</h1>
+            <h3>I AM <Span>TECHNOLOGY ENTHUSIAST </Span> </h3>
+            <p> </p>
+            <div class="Social-media">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+           
+          <a href="https://in.linkedin.com/" class="btn"> view linkedin</a>
+        </div>
+        <div class="abhi-img">
+            <img src="abhi.jpg" alt="">
+
+        </div>
+    </section>
+    <section class="About" id="about">
+        <div class="download-img">
+            <img src="dowload.jpeg" alt="">
+        </div>
+        <div class="About-content">
+            <h3><span>ABOUT ME</span></h3>
+            <p><b>Hello, I am Abhinav, a computer science student with a passion for staying abreast of emerging trends in the field.
+                I am dedicated to continuous learning,<span>actively exploring and acquiring knowledge about new developments in the field.</span>My goal is to apply this knowledge to create innovative and dynamic websites</b></p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="s-img">
+            <img src="s.jpg" alt="">
+        </div>
+        <div class="skills-content">
+            <h3><span>SKILLS</span></h3>
+            <p>I possess knowledge in <span><br>HTML,<br> CSS,<br> C <br>data structures,<br> and Python,<br> with a foundational understanding of Java.<br></span>
+                I am enthusiastic about acquiring proficiency in various programming languages and staying updated on the latest advancements.</p>
+        </div>
+    </section>
+
+    <section class="Education" id="Education">
+        <div class="Education-content">
+            <h3><span>Education</span></h3>
+            <p>"I am currently in my second year of studying Computer Science with a focus on Artificial Intelligence and Machine Learning."in <span><br>Gitam university<br></span></p>
+        </div>
+    </section>
+
+    <section class="Contact" id="contact">
+        <div class="Contact-content">
+            <h3>Reach me</h3>
+            <p>YOU CAN REACH ME:<span>abhinav120304@gmail.com</span> </p>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <div class="Contact-content">
+            <h3>Contact Me</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
